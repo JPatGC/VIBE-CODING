@@ -1,0 +1,10 @@
+/* experimental dark theme - never got around to integrating this */
+body {
+  background: #0a0a0a;
+  color: #f0f0f0;
+}
+
+.card {
+  background: #161616;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.4);
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Focus Timer</title>
+  <link rel="icon" href="assets/icons/site_icon.svg">
+  <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+  <header>
+    <img src="assets/icons/site_icon.svg" alt="Logo" class="header-logo">
+    <h1>Focus Timer</h1>
+  </header>
+  <main>
+    <section class="card timer-card">
+      <div id="mode-label">Focus</div>
+      <div class="timer-display" id="timer">25:00</div>
+      <div class="controls">
+        <button id="start-btn">Start</button>
+        <button id="pause-btn" disabled>Pause</button>
+        <button id="reset-btn">Reset</button>
+      </div>
+    </section>
+    <section class="card">
+      <h2>Sessions</h2>
+      <div id="session-log"><p class="empty-msg">No completed sessions yet.</p></div>
+    </section>
+  </main>
+  <footer>
+    <p>Built at a <span id="workshop-name">CAIL Workshop</span></p>
+  </footer>
+  <script src="assets/js/helpers.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
